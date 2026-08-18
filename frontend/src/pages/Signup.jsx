@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useNavigate, Link } from 'react-router-dom'
 import axios from 'axios'
 
-const API = 'http://localhost:5000/api/auth'
+const API = 'https://ai-study-assistant-backend-nkrw.onrender.com/api/auth'
 
 function Signup({ darkMode }) {
   const navigate = useNavigate()
